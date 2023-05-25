@@ -1,4 +1,5 @@
 # Color-Difference
+Compare a variety of different color spaces using the most common algorithms
 
 __- Delta_C ( CIE_a1, CIE_b1, CIE_a2, CIE_b2 )__
 

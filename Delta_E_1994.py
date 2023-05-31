@@ -2,7 +2,9 @@
 import math
 
 def Delta_E_1994 ( CIE_L1, CIE_a1, CIE_b1, CIE_L2, CIE_a2, CIE_b2 ):
-    WHT_L, WHT_C, WHT_H = 1
+    WHT_L = 1
+    WHT_C = 1
+    WHT_H = 1
     xC1 = math.sqrt( ( CIE_a1 ** 2 ) + ( CIE_b1 ** 2 ) )
     xC2 = math.sqrt( ( CIE_a2 ** 2 ) + ( CIE_b2 ** 2 ) )
     xDL = CIE_L2 - CIE_L1
